@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Farm_System.Controller;
+using Farm_System.View;
 
 namespace Farm_System.View
 {
@@ -19,7 +21,7 @@ namespace Farm_System.View
             this.WindowState = FormWindowState.Maximized;
         }
 
-        /*public override void ActSalvar()
+        public override void ActSalvar()
         {
             if (cbCliente.Checked)
             {
@@ -35,6 +37,6 @@ namespace Farm_System.View
                 fornecedor.CNPJ = tbCpfCnpj.Text;
                 fornecedor.CadastrarFornecedor(fornecedor);
             }
-        }*/
+        }
     }
 }

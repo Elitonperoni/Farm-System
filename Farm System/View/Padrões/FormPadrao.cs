@@ -13,19 +13,20 @@ namespace Farm_System.View
 {
     public partial class FormPadrao : Form
     {
-      /*  public virtual void ActSalvar()
-        {
-            //inherited           
-        }*/
-
         public FormPadrao()
         {
             InitializeComponent();            
         }
 
-      /*  public virtual void button2_Click(object sender, EventArgs e)
+        public virtual void button2_Click(object sender, EventArgs e)
         {
             ActSalvar();
-        } */
+        }
+
+        public virtual void ActSalvar()
+        {
+            //inherited
+            MessageBox.Show("Aqui eh form padrao");
+        }
     }
 }
