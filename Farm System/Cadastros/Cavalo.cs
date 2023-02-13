@@ -27,8 +27,7 @@ namespace Farm_System.Cadastros
             {
                 cmd.Connection = conexao.Conectar();
                 cmd.ExecuteNonQuery();
-                conexao.Desconectar();
-                //Teste
+                conexao.Desconectar();              
 
                 this.mensagem = "Cadastrado com sucesso";
 
