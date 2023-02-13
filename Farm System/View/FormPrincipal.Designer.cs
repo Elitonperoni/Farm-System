@@ -1,6 +1,6 @@
-﻿namespace Arquivo
+﻿namespace Farm_System
 {
-    partial class Form1
+    partial class FormPrincipal
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
@@ -90,22 +90,21 @@
             this.rotinaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pessoasToolStripMenuItem});
             this.rotinaToolStripMenuItem.Name = "rotinaToolStripMenuItem";
-            this.rotinaToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.rotinaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.rotinaToolStripMenuItem.Text = "Cadastros";
             // 
             // pessoasToolStripMenuItem
             // 
             this.pessoasToolStripMenuItem.Name = "pessoasToolStripMenuItem";
-            this.pessoasToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.pessoasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.pessoasToolStripMenuItem.Text = "Pessoas";
             this.pessoasToolStripMenuItem.Click += new System.EventHandler(this.pessoasToolStripMenuItem_Click);
             // 
             // cavalosToolStripMenuItem
             // 
             this.cavalosToolStripMenuItem.Name = "cavalosToolStripMenuItem";
-            this.cavalosToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
-            this.cavalosToolStripMenuItem.Text = "Cavalos";
-            this.cavalosToolStripMenuItem.Click += new System.EventHandler(this.cavalosToolStripMenuItem_Click);
+            this.cavalosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cavalosToolStripMenuItem.Text = "Cavalos";            
             // 
             // toolStripSplitButton2
             // 
@@ -141,7 +140,7 @@
             this.contasAPagarToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
             this.contasAPagarToolStripMenuItem.Text = "Contas a Pagar";
             // 
-            // Form1
+            // FormPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -149,7 +148,7 @@
             this.ClientSize = new System.Drawing.Size(1284, 681);
             this.Controls.Add(this.toolStrip1);
             this.IsMdiContainer = true;
-            this.Name = "Form1";
+            this.Name = "FormPrincipal";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.toolStrip1.ResumeLayout(false);

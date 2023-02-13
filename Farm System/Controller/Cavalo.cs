@@ -8,7 +8,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Farm_System.Cadastros
+namespace Farm_System.Controller
 {
     public class Cavalo
     {     

@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Farm_System.Cadastros
+namespace Farm_System.Controller
 {
     class Cliente : Pessoa
     {

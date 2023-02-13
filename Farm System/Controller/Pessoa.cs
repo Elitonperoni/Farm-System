@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Farm_System.Cadastros
+namespace Farm_System.Controller
 {
     class Pessoa
     {
