@@ -90,21 +90,21 @@
             this.rotinaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.pessoasToolStripMenuItem});
             this.rotinaToolStripMenuItem.Name = "rotinaToolStripMenuItem";
-            this.rotinaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.rotinaToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
             this.rotinaToolStripMenuItem.Text = "Cadastros";
             // 
             // pessoasToolStripMenuItem
             // 
             this.pessoasToolStripMenuItem.Name = "pessoasToolStripMenuItem";
-            this.pessoasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.pessoasToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
             this.pessoasToolStripMenuItem.Text = "Pessoas";
             this.pessoasToolStripMenuItem.Click += new System.EventHandler(this.pessoasToolStripMenuItem_Click);
             // 
             // cavalosToolStripMenuItem
             // 
             this.cavalosToolStripMenuItem.Name = "cavalosToolStripMenuItem";
-            this.cavalosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.cavalosToolStripMenuItem.Text = "Cavalos";            
+            this.cavalosToolStripMenuItem.Size = new System.Drawing.Size(126, 22);
+            this.cavalosToolStripMenuItem.Text = "Cavalos";
             // 
             // toolStripSplitButton2
             // 
@@ -145,12 +145,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1284, 681);
+            this.ClientSize = new System.Drawing.Size(1269, 681);
             this.Controls.Add(this.toolStrip1);
             this.IsMdiContainer = true;
             this.Name = "FormPrincipal";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.FormPrincipal_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.ResumeLayout(false);

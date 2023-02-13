@@ -1,4 +1,5 @@
 using Farm_System.View;
+using Farm_System.View.Padrões;
 
 namespace Farm_System
 {
@@ -13,6 +14,13 @@ namespace Farm_System
         {
             CadastroDePessoas p = new CadastroDePessoas(this);            
             p.Show();
+        }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+            FormImagemInicial f = new FormImagemInicial();
+            f.MdiParent = this;
+            f.Show();
         }
     }
 }
